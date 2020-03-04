@@ -58,7 +58,7 @@
 		6F7EA8F1931BF9FFE4961E3D /* Pods_engagedx.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_engagedx.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8B547AACB44195C69814D6 /* Pods_engagedxTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_engagedxTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE4172FD757C18032E10451 /* Pods-engagedx-engagedxUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-engagedx-engagedxUITests.release.xcconfig"; path = "Target Support Files/Pods-engagedx-engagedxUITests/Pods-engagedx-engagedxUITests.release.xcconfig"; sourceTree = "<group>"; };
-		D97A0831240D052E0004A2E2 /* engagedx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = engagedx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D97A0831240D052E0004A2E2 /* Engagedx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Engagedx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97A0834240D052E0004A2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D97A0836240D052E0004A2E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D97A0838240D052E0004A2E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 		D97A0832240D052E0004A2E2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D97A0831240D052E0004A2E2 /* engagedx.app */,
+				D97A0831240D052E0004A2E2 /* Engagedx.app */,
 				D97A0847240D05300004A2E2 /* engagedxTests.xctest */,
 				D97A0852240D05300004A2E2 /* engagedxUITests.xctest */,
 			);
@@ -258,7 +258,7 @@
 			);
 			name = engagedx;
 			productName = engagedx;
-			productReference = D97A0831240D052E0004A2E2 /* engagedx.app */;
+			productReference = D97A0831240D052E0004A2E2 /* Engagedx.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D97A0846240D05300004A2E2 /* engagedxTests */ = {
@@ -675,7 +675,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.midhun.engagedx;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Engagedx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -694,7 +694,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.midhun.engagedx;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Engagedx;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
